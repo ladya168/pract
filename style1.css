@@ -1,0 +1,48 @@
+
+#QR-max{
+
+   h1{
+    font-family: "ARIAL BLACK";
+    text-align: center;
+    font-size: 75px;
+    color: #ffffff;
+   }
+    img{ 
+        width: 350px;
+     position: absolute;
+     top: -60px;
+     left: 550px;
+    }
+
+}
+body{
+    height: 1000px;
+     background: linear-gradient(rgb(0, 0, 0), rgb(117, 0, 0));
+}
+#welcome{
+   h1{
+    font-family: "ARIAL BLACK";
+    text-align: center;
+    font-size: 75px;
+    color: #ffffff;
+   }  
+   
+}
+
+.rectangle {    
+   border-radius: 100px; 
+  height: 550px;
+    margin: 0 auto; 
+  width: 1600px;         
+  background-color: #949494;
+  p{
+   
+   padding: 50px;
+   font-family: "ARIAL";
+   font-weight: bold;
+    text-align: center;
+    font-size: 45px;
+    color: #000000;
+    
+  }  
+}
