@@ -31,7 +31,7 @@ body{
 
 .rectangle {    
     border-radius: 100px; 
-    height: 550px;
+    height: 590px;
     margin: 0 auto; 
     width: 1600px;         
     background-color: #949494;
@@ -60,6 +60,7 @@ body{
    position: relative;
    top: 15px;
    left: 125px;
+   text-decoration: none;
   }
   }
   .images{
@@ -70,24 +71,35 @@ body{
     }
   }
   #ds{
+    a{
+       width: 100%;    /* Растягивает хитбокс на всю ширину родителя */
+       height: 100%;
+    }
    position: relative;
-   top: 120px;
-   left: 300px;
+   top: -160px;
+   left: 1380px;
   }
   #tg{
     position: relative;
-   top: 120px;
-   left: 500px;
+   top: 60px;
+   left: 1280px;
   }
   #yt{
    position: relative;
-   top: 120px;
-   left: 340px;
+   top: -20px;
+   left: 1380px;
   }
   #Twh{
+    transform: scale(1.7);
    position: relative;
-   top: 120px;
-   left: 360px;
+   top: -90px;
+   left: 2010px;
+  }
+  #donat{
+    transform: scale(1.7);
+    position: relative;
+    top: 140px;
+    left: 600px;
   }
   
   
