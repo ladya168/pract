@@ -6,9 +6,12 @@ body {
 }                                                                                                                                     
 .text{
   position: relative;
+  right: 12px;
   color: rgb(255, 0, 0);
+  font-family: "ARIAL BLACK";
   #qrkod{
     color: rgb(0, 0, 0);
+    font-family: "ARIAL BLACK";
   }
 }
 
@@ -41,6 +44,7 @@ img {
   top: -5%;
   left: -1%;
    z-index: 3;
+   filter: brightness(1.5) contrast(1.1);
 }
 #luna{
  position: absolute; 
@@ -62,6 +66,7 @@ img {
     z-index: 4;
     pointer-events: none;
     user-select: none;
+    color: hsl(0, 100%, 50%);
 }
 .kanji-bg2 {
     position: absolute;
@@ -79,6 +84,7 @@ img {
     z-index: 4;
     pointer-events: none;
     user-select: none;
+    color: hsl(0, 100%, 50%);
   }
 .kanji-bg3 {
     position: absolute;
@@ -93,7 +99,7 @@ img {
     font-size: 3.5rem;
     color: rgba(0, 0, 0, 0.911);
     text-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
-    z-index: 2;
+    z-index: 4;
     pointer-events: none;
     user-select: none;
 }
@@ -110,11 +116,11 @@ img {
     font-size: 3.5rem;
     color: rgba(0, 0, 0, 0.911);
     text-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
-    z-index: 2;
+    z-index: 4;
     pointer-events: none;
     user-select: none;
 }
-/* Красная луна в верхнем левом углу */
+
 .red-moon {
     position: absolute;
     top:  75%;
@@ -123,8 +129,8 @@ img {
     height: 260px;
     background: radial-gradient(circle, #ff3333 0%, #800000 70%, #200000 100%);
     border-radius: 50%;
-    box-shadow: 0 0 50px rgba(255, 0, 0, 0.5), inset -10px -10px 30px rgba(0, 0, 0, 0.8);
-    filter: blur(1px);
+    /* box-shadow: 0 0 50px rgba(255, 0, 0, 0.5), inset -10px -10px 30px rgba(0, 0, 0, 0.8); */
+    /* filter: blur(1px); */
     opacity: 0.85;
     z-index: 2;
     pointer-events: none;
@@ -191,9 +197,10 @@ img {
     left: 330px;
     z-index: 1;
     opacity: 0.5;
+
 }
 
-/* Вращающийся магический круг в левом нижнем углу */
+
 .magic-circle {
     position: absolute;
     bottom: -80px;
@@ -245,4 +252,22 @@ img {
   position: absolute;
   bottom: 280px;
   left: 810px;
+}
+#katanared{
+  position: absolute;
+  left: 800px;
+  transform: rotate(240deg);
+}
+#katana3{
+  width: 500px;
+  height: 500px;
+  position: absolute;
+  left:-20px;
+  top: 170px
+  
+}
+#penta{
+  position: absolute;
+  left: -49px;
+  bottom: -40px;
 }
